@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        #layout {
+            border: 2px solid black;
+            /* margin: 15px; */
+            /* padding: 5px; */
+            height: 50vh;
+            /* width: 45vw; */
+            width: 20%;
+        text-align: center;
+        float: right;
+        margin-right: 35%;
+        margin-top: 5%;
+            
+            
+        }
+
+        #inputnumber {
+            margin: 5px;
+            border: 1px solid black;
+            padding: 10px;
+            width: 80%;
+            text-align: right;
+            font-size: 20px;
+
+        }
+        .btn{
+            padding: 12px;
+            margin: 10px;
+            display: inline-block;
+            font-size: 16px;
+            text-align: center;
+        }
+        .equal{
+            padding-top: 45px;
+            padding-bottom: 45px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="layout">
+        <table>
+            <tr>
+                <td colspan="4">
+                    <input type="number" name="inputnumber" id="inputnumber">
+
+                </td>
+            </tr>
+            <tr>
+                <td><button class="btn" type="submit">+</button></td>
+                <td><button class="btn"  type="submit">-</button></td>
+                <td><button class="btn" type="submit">*</button></td>
+                <td><button class="btn" type="submit">/</button></td>
+
+            </tr>
+            <tr>
+                <td><button class="btn"  type="submit">1</button></td>
+                <td><button class="btn" type="submit">2</button></td>
+                <td><button class="btn" type="submit">3</button></td>
+                <td><button class="btn" type="submit">0</button></td>
+
+            </tr>
+            <tr>
+                <td><button class="btn" type="submit">4</button></td>
+                <td><button class="btn" type="submit">5</button></td>
+                <td><button class="btn" type="submit">6</button></td>
+                <td rowspan="2"><button class="btn equal" type="submit">=</button></td>
+               
+
+            </tr>
+            <tr>
+                <td><button class="btn"  type="submit">7</button></td>
+                <td><button class="btn" type="submit">8</button></td>
+                <td><button class="btn" type="submit">9</button></td>
+
+            </tr>
+        </table>
+      
+    </div>
+
+</body>
+
+</html>
